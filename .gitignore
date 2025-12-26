@@ -46,3 +46,4 @@ bin/
 .DS_Store
 
 values/
+src/main/resources/secrets

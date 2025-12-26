@@ -10,7 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.yaml:snakeyaml:1.33")
+    implementation("org.yaml:snakeyaml:2.0")
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
+    implementation("com.google.code.gson:gson:2.10.1")
     testImplementation(kotlin("test"))
 }
 
