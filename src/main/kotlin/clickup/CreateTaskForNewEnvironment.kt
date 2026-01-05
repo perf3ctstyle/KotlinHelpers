@@ -92,11 +92,13 @@ fun getSubtaskNames(environmentCode: String): List<String> {
         "Run the Kotlin script to sync UFW rules",
         "Set up $environmentCode env code in mono repository (with merge request)",
         "Set up $environmentCode env code in mono-devops repository (with merge request)",
+        "Upload GitLab variables for $environmentCode in mono-devops repository",
         "Deploy delivery-manager from master",
         "Deploy $environmentCode from DM",
         "Deploy auth-service from current release",
         "Add system-services in mono-manifests repository (without merge request)",
-        "Configure DNS in Cloudflare for main domain (e.g., betorspin.com) to point at Kubernetes manager node"
+        "Configure DNS in Cloudflare for main domain (e.g., betorspin.com) to point at Kubernetes manager node",
+        "Enable environment in Kubernetes configuration"
     )
 }
 
