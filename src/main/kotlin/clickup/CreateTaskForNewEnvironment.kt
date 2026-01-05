@@ -93,6 +93,7 @@ fun getSubtaskNames(environmentCode: String): List<String> {
         "Set up $environmentCode env code in mono repository (with merge request)",
         "Set up $environmentCode env code in mono-devops repository (with merge request)",
         "Upload GitLab variables for $environmentCode in mono-devops repository",
+        "Upload Vault secrets",
         "Deploy delivery-manager from master",
         "Deploy $environmentCode from DM",
         "Deploy auth-service from current release",
