@@ -48,7 +48,7 @@ fun constructMainTask(environmentCode: String, puiUrl: String, adminUrl: String)
 }
 
 fun constructMainTaskName(environmentCode: String): String {
-    return "DevOps - New Deploy Environment - $environmentCode - Setup"
+    return "DevOps - Environment - $environmentCode - Setup"
 }
 
 fun constructMainTaskMarkdownDescription(environmentCode: String, puiUrl: String, adminUrl: String): String {
