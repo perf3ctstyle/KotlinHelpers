@@ -12,7 +12,7 @@ val USER_ID = 94689332
 /* Variables */
 val TASK_LIST_ID = "901518891745"
 val ENVIRONMENT_CODE = "BETORSPIN_GLOBAL__PRD_K8S__PL_SB"
-val PLAYER_UI_URL = "https://betorspin-global.com/"
+val PLAYER_UI_URL = "https://web-betorspin-global--prd-k8s--pl-sb.web77prd.com/"
 val ADMIN_UI_URL = "https://admin-betorspin-global--prd-k8s--pl-sb.api4jsv.com/"
 
 fun createTaskForNewEnvironment() {
